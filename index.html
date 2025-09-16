@@ -37,7 +37,7 @@
 
     <main>
         <section class = "pagrindinis">
-            <div class = "pagrindinis_tekstas">
+            <div class = "tekstas">
                 <h2>Studentas</h2>
                 <p>Esu informacinių sistemų inžinerijos studentas, besidomintis programavimu ir informacinėmis technologijomis. 
                     Aktyviai mokausi C++ ir Python, taip pat turiu web technologijų (HTML, CSS) pagrindus. 
@@ -49,7 +49,7 @@
                     o smalsumas skatina nuolat atrasti naujas technologijas ir jų panaudojimo galimybes.</p>
                 
                 <div class="links">
-                    <a href="Įgūdžiai">
+                    <a href="#Įgūdžiai">
                         <i class="fa-solid fa-code"></i>
                         <span>Įgūdžiai</span>
                     </a>
@@ -74,39 +74,67 @@
 
         <section id="skilsai" class="igudziu-sarasas">
             <h2>Skills</h2>
-            <div class="text">
+            <div class="tekstas">
+                <p>Žemiau pateikti mano įgyti įgūdžiai 
             </div>
 
             <div class="nuotraukos">
                 <div class="ntr">
-                    <img src="images/html-logo.webp" alt="html logo">
+                    <img src="images/html-logo.webp" alt="python logo">
                     <span>Python</span>
                 </div>
         
                 <div class="ntr">
-                    <img src="images/css-logo.webp" alt="css logo">
+                    <img src="images/css-logo.webp" alt="c++ logo">
                     <span>C++</span>
                 </div>
         
                 <div class="ntr">
-                    <img src="images/javascript-logo.webp" alt="javascript logo">
+                    <img src="images/javascript-logo.webp" alt="powerautomate logo">
                     <span>PowerAutomate</span>
                 </div>
         
                 <div class="ntr">
-                    <img src="images/node-logo.webp" alt="node logo">
+                    <img src="images/node-logo.webp" alt="docker logo">
                     <span>Docker</span>
                 </div>
         
                 <div class="ntr">
-                    <img src="images/react-logo.webp" alt="react logo">
+                    <img src="images/react-logo.webp" alt="copilot logo">
                     <span>Copilot</span>
                 </div>
             </div>
         </section>
+
+        <section id="sertifikatai" class="sertifikatu-sarasas">
+            <h2>Sertifikatai</h2>
+            <div class="text">
+                <p>Žemiau pateikti mano įgyti sertifikatai, kurie patvirtina mano žinias ir įgūdžius įvairiose srityse.</p>
+            </div>
         
+        <section id="kontaktai" class="kontaktu-sekcija ">
+            <h2>Parašykite</h2>
+            
+            <div class = "grupe-kontaktu">
+                <div class="tekstas">
+                    Jei turite klausimų, pasiūlymų ar norėtumėte susisiekti, prašome užpildyti žemiau esančią formą. 
+                    Atsakysiu kuo greičiau!
+                </div>
+            
+                <form>
+                    <label for="vardas">Vardas:</label>
+                    <input type="text" id="vardas" name="vardas" required>
 
+                    <label for="elpastas">El. paštas:</label>
+                    <input type="email" id="elpastas" name="elpastas" required>
+
+                    <label for="zinute">Žinutė:</label>
+                    <textarea id="zinute" name="zinute" rows="4" required></textarea>
+
+                    <button type="submit">Siųsti</button>
+                </form>    
+            </div>
+        </section>
     </main>
-
 </body>
 </html>
