@@ -112,3 +112,86 @@ nav .right a span {
   text-align: center;
   margin-bottom: 20px;
 }
+
+.igudziu-sarasas .tekstas {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.igudziu-sarasas .nuotraukos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.igudziu-sarasas .nuotraukos .ntr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.igudziu-sarasas .nuotraukos .ntr img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+.igudziu-sarasas .nuotraukos .ntr span {
+  font-size: 18px;
+}
+
+.kontaktu-sekcija {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+.kontaktu-sekcija h2 {
+  font-size: 35px;
+}
+
+.kontaktu-sekcija .grupe-kontaktu {
+  display: flex;
+  gap: 50px;
+}
+
+.kontaktu-sekcija .grupe-kontaktu .tekstas {
+  flex: 3;
+  margin-top: 20px;
+}
+
+.kontaktu-sekcija .grupe-kontaktu form {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.kontaktu-sekcija .grupe-kontaktu form input,
+.kontaktu-sekcija .grupe-kontaktu form textarea {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid dodgerblue;
+  background-color: transparent;
+  padding: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  resize: none;
+}
+
+.kontaktu-sekcija .grupe-kontaktu form button {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: dodgerblue;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+  transition: .1s;
+} 
+.kontaktu-sekcija .grupe-kontaktu form button:hover {
+  filter: brightness(.9);
+}
