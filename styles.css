@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: var(--text-color);
+  color: var(--tekstas-color);
   background-color: var(--background-color);
   max-width: 1400px;
   margin: 0 auto;
@@ -37,24 +37,24 @@ nav {
 }
 
 nav .logo_vardas_pradzia a {
-  color: var(--text-color);
+  color: var(--tekstas-color);
   font-size: 22px;
   font-weight: 600;
 }
 
 nav .kontaktiniai_Duomenys a {
-  color: var(--text-color);
+  color: var(--tekstas-color);
   margin: 0 10px;
 }
 
-nav .right a:last-child {
+nav .kontaktiniai_Duomenys a:last-child {
   color: var(--background-color);
-  background-color: var(--text-color);
+  background-color: var(--tekstas-color);
   padding: 5px 15px;
   border-radius: 5px;
 }
 
-nav .right a span {
+nav .kontaktiniai_Duomenys a span {
   margin-left: 5px;
 }
 
@@ -70,16 +70,21 @@ nav .right a span {
 
 .pagrindinis .tekstas {
     flex: 5;
+    margin-bottom: 50px;
 }
 
 .pagrindinis .tekstas h2 {
   font-size: 45px;
 }
 
+.pagrindinis .tekstas p {
+  margin-bottom: 10px;
+}
+
 .pagrindinis .tekstas .links a  {
   display: inline-block;
   padding: 5px 10px;
-  border: 2px solid var(--link-color);
+  border: 2px solid var(--nuorodu-color);
   border-radius: 5px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -92,14 +97,14 @@ nav .right a span {
   border: 2px solid var(--tekstas-color);
 }
 
-.hero-section .persnonalis_nuotrauka {
+.pagrindinis .personali_nuotrauka {
   flex: 2;
   display: flex;
   justify-content: right;
 }
 
-.hero-section .persnonalis_nuotrauka img {
-  max-width: 300px;
+.pagrindinis .personali_nuotrauka img {
+  width: 350px;
   border-radius: 50%;
 }
 
